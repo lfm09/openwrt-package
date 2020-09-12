@@ -1,0 +1,6 @@
+#!/bin/sh
+uci batch <<-EOF
+	set luci.themes.Argon_Dark=/luci-static/argon_dark
+	commit luci
+EOF
+exit 0
